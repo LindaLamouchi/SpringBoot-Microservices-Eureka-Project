@@ -13,7 +13,7 @@ import java.util.stream.Stream;
 @EnableDiscoveryClient
 @SpringBootApplication 
 public class ServiceCompanyApplication implements  CommandLineRunner {
-	@Autowired
+	@Autowired 
 	CompanyRepository companyRepository;
 	public static void main(String[] args) {
 	
